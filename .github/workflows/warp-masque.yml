@@ -74,7 +74,6 @@ jobs:
 
       - name: 上传 artifact
         uses: actions/checkout@v6
-        uses: actions/upload-artifact@v6
         with:
           name: warp-masque-config
           path: dist/
